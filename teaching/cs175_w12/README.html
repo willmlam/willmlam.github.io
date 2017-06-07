@@ -1,0 +1,50 @@
+<h3>Changelog</h3>
+
+<ul>
+<li>01/18/2012: Added a version of Kalah using the pie rule (KalahPieGameState).
+Removed "winner" fields from GameState classes.</li>
+<li>01/14/2012: Initial release.</li>
+</ul>
+
+<h3>About the Mancala Game Framework</h3>
+
+<p>This framework was adapted for Mancala by William Lam for the Winter 2012 
+offering of CS 175, taught by Max Welling. The code was originally designed 
+for Connect Four, provided by Alex Ihler.</p>
+
+<h3>Classes/Interfaces</h3>
+
+<pre><code>MancalaGameState (abstract)
+|- KalahGameState
+|- OwareGameState
+|- KalahPieGameState
+</code></pre>
+
+<p>Use one of the subclasses to decide on the Mancala variant.</p>
+
+<pre><code>MancalaPlayer (interface)
+|- random_Player
+|- interactive_Player
+</code></pre>
+
+<p>Implement the MancalaPlayer interface to create your AI routine. The 
+name of your class should be formatted as YourClassName_Player.</p>
+
+<pre><code>TermGame
+</code></pre>
+
+<p>TermGame provides an example of how to use MancalaGameState and 
+MancalaPlayer. It uses reflection to instantiate the state and player classes 
+based on command line parameters. We will use a similar main class to 
+this to run the tournament.</p>
+
+<pre><code>Ex: java TermGame Kalah 4 interactive random
+Set player 0 as the interactive player and player 1 as the random player, 
+playing the Kalah variant with 4 starting stones in each bucket.
+</code></pre>
+
+<p>Note that for Oware, repeated states are possible in the game tree. Since 
+we cannot assume that two players will make a consensus to end the game, 
+we will leave this decision up to the user interface running the game. (It 
+should detect a sequence of repeated states and end the main execution loop, 
+if so.)</p>

@@ -1,0 +1,21 @@
+#container {
+	width: 667px;
+}
+
+#sidebarContainer {
+	background: url(../../images/paper_right_63x523.png) no-repeat left top;
+	width: 63px;
+	height: 523px;
+	float: right;
+	margin-top: 125px;
+}
+
+#sidebarContainer #sidebar,
+#sidebarContainer .sideHeader {
+	display: none;
+}
+
+#footer {
+	width: 594px;
+	padding-right: 73px;
+}

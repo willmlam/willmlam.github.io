@@ -1,0 +1,111 @@
+/* @group Main body text */
+
+body,
+form label {
+	color: #637F87;
+}
+
+/* @end */
+
+/* @group Page Headers & Nav */
+#sidebarContainer .sideHeader,
+h1,h2,
+.blog-archive-month,
+.album-title,
+.photo-title,
+.movie-page-title,
+.movie-description,
+form,
+#navcontainer a,
+#navcontainer a:visited,
+h1.blog-entry-title a, 
+h1.blog-entry-title a:visited {
+	color: #643420;
+}
+
+/* @end */
+
+/* @group Light Headers */
+
+#pageHeader h2,
+h3, h4,
+blockquote, .standout {
+	color: #AC9075;
+}
+
+/* @end */
+
+/* @group Nav Container & Header */
+
+
+h1#site-title,
+#navcontainer #current,
+#navcontainer a:hover {
+	color: #F88C15;
+}
+
+#navcontainer ul ul a:hover,
+#navcontainer ul ul #current {
+	background-color: #F88C15;
+}
+
+/* @end */
+
+/* @group Breadcrumb & Downloads */
+#sidebarContainer #sidebar ul.blog-tag-cloud li a,
+#breadcrumbcontainer,
+#breadcrumbcontainer a,
+.filesharing-item-title a:link,
+.blog-entry-category a:link, 
+.blog-entry-category a:visited,
+p.blog-entry-tags a,
+p.blog-entry-tags a:visited,
+.blog-entry-comments a.blog-comment-link,
+.blog-entry-comments a.blog-comment-link:visited,
+.blog-entry-comments a.blog-trackback-link,
+.blog-entry-comments a.blog-trackback-link:visited
+ {
+	color: #AC9078;
+}
+
+/* @end */
+
+/* @group Links */
+
+a:link {
+	color: #643420;
+	background-color: #FEFED1;
+	border-color: #E5DCD8;
+}
+
+a:visited {
+	color: #A7A19E;
+	background-color: #FEFED1;
+	border-color: #E5DCD8;
+}
+
+a:hover {
+	background-color: transparent;
+}
+/* @end */
+
+/* @group Footer */
+
+#footer,
+#footer a:link, #footer a:visited {
+	color: #AEB6B8;
+}
+
+/* @end */
+
+/* @group Sidebar */
+
+#sidebarContainer {
+	color: #AC9077;
+}
+
+#sidebarContainer #sidebar a{
+	color: #637F87;
+}
+
+/* @end */

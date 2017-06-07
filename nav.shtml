@@ -1,0 +1,3 @@
+	<div id="navcontainer"><!-- Start Navigation -->
+			<ul><li><a href="./" rel="self">Home</a></li><li><a href="courses/" rel="self">Courses</a></li><li><a href="teaching/" rel="self">Teaching</a></li></ul>
+	</div><!-- End navigation --> 
